@@ -88,7 +88,7 @@ while True:
     nx = x + dx[direction]
     ny = y + dy[direction]
     #회전한 이후 정면에 가보지 않은 칸이 존재하는  경우 이동
-    if d[ny][ny] == 0 and array[nx][ny] == 0:
+    if d[nx][ny] == 0 and array[nx][ny] == 0:
         d[nx][ny] = 1
         x = nx
         y = ny
