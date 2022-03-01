@@ -1,3 +1,4 @@
+# DFS는 최단 경로를 찾을 때 사용하자!!
 from collections import deque
 
 # BFS 메서드 정의
